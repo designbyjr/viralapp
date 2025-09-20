@@ -73,24 +73,25 @@
                     </nav>
                 </header>
 
+
                 <main class="flex-1 space-y-24 pt-12">
-                    <section id="hero" class="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+                    <section id="hero" class="grid gap-12 lg:grid-cols-[1.05fr_1fr] lg:items-center">
                         <div class="space-y-7">
                             <span class="inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">
-                                High-converting launch system
+                                Launch-ready referral hub
                             </span>
                             <h1 class="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                                Design referral landing pages that convert like your best closer.
+                                Ship a single referral page that feels handcrafted and tracks every win.
                             </h1>
                             <p class="max-w-xl text-base text-white/70 sm:text-lg">
-                                Viral Launchpad blends AI-guided design with referral intelligence so every campaign feels on-brand and obsessively measured. Each advocate receives a unique URL that only increments their count after a conversion on their personal page—no vanity numbers, just verified momentum.
+                                Viral Launchpad turns your brand kit and campaign copy into a polished landing experience. Advocates share a unique URL, and their count only increases once someone converts on that page—zero fluff, no accidental credit.
                             </p>
                             <div class="flex flex-wrap gap-4">
                                 <a
                                     href="#product"
                                     class="inline-flex items-center gap-2 rounded-full bg-[#FF6B4A] px-6 py-3 text-sm font-semibold text-[#0D0E10] shadow-[0_15px_40px_rgba(255,107,74,0.35)] transition hover:-translate-y-0.5 hover:bg-[#FF835C]"
                                 >
-                                    Plan my launch
+                                    Build my page
                                     <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                                         <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
@@ -100,55 +101,57 @@
                                     href="#how-it-works"
                                     class="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white/80 transition hover:border-white/40 hover:text-white"
                                 >
-                                    See how it works
+                                    See the workflow
                                 </a>
                             </div>
                             <dl class="grid gap-6 text-sm text-white/60 sm:grid-cols-3">
                                 <div>
-                                    <dt class="font-medium text-white/60">Avg. conversion lift</dt>
-                                    <dd class="mt-1 text-2xl font-semibold text-white">+38%</dd>
-                                </div>
-                                <div>
-                                    <dt class="font-medium text-white/60">Landing pages shipped</dt>
+                                    <dt class="font-medium text-white/60">Campaigns launched</dt>
                                     <dd class="mt-1 text-2xl font-semibold text-white">1.2K+</dd>
                                 </div>
                                 <div>
-                                    <dt class="font-medium text-white/60">Launch time</dt>
-                                    <dd class="mt-1 text-2xl font-semibold text-white">72 hours</dd>
+                                    <dt class="font-medium text-white/60">Average lift</dt>
+                                    <dd class="mt-1 text-2xl font-semibold text-white">+38%</dd>
+                                </div>
+                                <div>
+                                    <dt class="font-medium text-white/60">Time to ship</dt>
+                                    <dd class="mt-1 text-2xl font-semibold text-white">72 hrs</dd>
                                 </div>
                             </dl>
                         </div>
                         <div class="relative">
-                            <div class="absolute -inset-x-6 top-8 h-96 rounded-[2.5rem] bg-gradient-to-br from-[#1A2938] via-[#11202B] to-[#0A0E13] opacity-80 blur-3xl"></div>
-                            <div class="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_25px_80px_rgba(9,10,12,0.65)]">
+                            <div class="absolute -inset-x-10 top-10 h-96 rounded-[2.75rem] bg-gradient-to-br from-[#1F2F3F] via-[#13202D] to-[#0A1017] opacity-80 blur-3xl"></div>
+                            <div class="relative overflow-hidden rounded-[2.75rem] border border-white/10 bg-white/5 p-8 shadow-[0_30px_80px_rgba(6,7,9,0.65)]">
                                 <div class="flex items-center justify-between">
                                     <div>
-                                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Advocate spotlight</p>
-                                        <h3 class="mt-1 text-lg font-semibold text-white">Jordan M. → 3 conversions</h3>
+                                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Live referral snapshot</p>
+                                        <h3 class="mt-1 text-lg font-semibold text-white">Jordan M. • 3 verified conversions</h3>
                                     </div>
-                                    <span class="rounded-full bg-[#0E131A] px-3 py-1 text-xs font-semibold text-[#61F4DE]">Verified</span>
+                                    <span class="rounded-full bg-[#0F141B] px-3 py-1 text-xs font-semibold text-[#61F4DE]">Synced</span>
                                 </div>
-                                <div class="mt-7 space-y-6">
-                                    <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                        <div class="flex items-center justify-between text-sm text-white/70">
-                                            <span class="font-semibold text-white">Referral URL</span>
+                                <div class="mt-7 space-y-6 text-sm text-white/70">
+                                    <div>
+                                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Referral link</p>
+                                        <div class="mt-2 flex items-center justify-between rounded-2xl border border-white/10 bg-[#0E131A] px-5 py-4 text-white">
                                             <span class="font-mono text-xs text-[#61F4DE]">viral.app/ref/jordan</span>
+                                            <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70">Copy</span>
                                         </div>
-                                        <p class="mt-3 text-xs text-white/60">
-                                            Counter increases after a visitor converts on Jordan’s dedicated page—no accidental clicks.
-                                        </p>
+                                        <p class="mt-3 text-xs text-white/60">Count jumps only when this page records your chosen conversion event.</p>
                                     </div>
-                                    <div class="space-y-4">
-                                        <div class="flex items-center justify-between rounded-2xl bg-gradient-to-r from-[#0F1924] via-[#123146] to-[#163D54] px-5 py-4 text-white">
-                                            <div>
-                                                <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/60">Conversion recorded</p>
-                                                <p class="mt-1 text-sm text-white/90">Lydia completed onboarding</p>
+                                    <div class="space-y-5">
+                                        <div class="relative pl-8">
+                                            <span class="absolute left-0 top-2 flex h-3 w-3 items-center justify-center rounded-full bg-[#61F4DE]"></span>
+                                            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/60">Latest conversion</p>
+                                            <p class="mt-1 text-sm text-white/90">Lydia completed onboarding • +1 reward</p>
+                                            <p class="mt-1 text-xs text-white/60">Auto-triggered $20 eGift 04:12 post-confirmation.</p>
+                                        </div>
+                                        <div class="relative pl-8">
+                                            <span class="absolute left-[0.35rem] top-0 h-full w-px bg-white/10"></span>
+                                            <div class="relative">
+                                                <span class="absolute -left-2 top-2 flex h-2 w-2 items-center justify-center rounded-full bg-white/30"></span>
+                                                <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/60">Pipeline</p>
+                                                <p class="mt-1 text-sm text-white/80">2 prospects viewing the referral page now</p>
                                             </div>
-                                            <span class="text-3xl font-semibold text-[#61F4DE]">+1</span>
-                                        </div>
-                                        <div class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/60">Auto reward</p>
-                                            <p class="mt-2 text-sm text-white/80">$20 eGift queued 04:12 after confirmation.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -156,83 +159,43 @@
                         </div>
                     </section>
 
-                    <section id="social-proof" class="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(10,11,13,0.45)]">
-                        <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-                            <div>
-                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">Social proof</p>
-                                <p class="mt-3 text-lg font-semibold text-white">Loved by growth teams shipping bold referral drops</p>
-                                <div class="mt-3 flex items-center gap-3 text-sm text-white/60">
-                                    <span class="flex items-center gap-1 text-[#FFB973]">
-                                        <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.667l2.317 5.108 5.35.459-4.066 3.74 1.226 5.26L10 13.75l-4.827 2.484 1.226-5.26-4.066-3.74 5.35-.459L10 1.667z"/></svg>
-                                        <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.667l2.317 5.108 5.35.459-4.066 3.74 1.226 5.26L10 13.75l-4.827 2.484 1.226-5.26-4.066-3.74 5.35-.459L10 1.667z"/></svg>
-                                        <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.667l2.317 5.108 5.35.459-4.066 3.74 1.226 5.26L10 13.75l-4.827 2.484 1.226-5.26-4.066-3.74 5.35-.459L10 1.667z"/></svg>
-                                        <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.667l2.317 5.108 5.35.459-4.066 3.74 1.226 5.26L10 13.75l-4.827 2.484 1.226-5.26-4.066-3.74 5.35-.459L10 1.667z"/></svg>
-                                        <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.667l2.317 5.108 5.35.459-4.066 3.74 1.226 5.26L10 13.75l-4.827 2.484 1.226-5.26-4.066-3.74 5.35-.459L10 1.667z"/></svg>
-                                    </span>
-                                    <span>4.9/5 from 280 product marketing teams</span>
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-4 text-sm font-semibold text-white/60">
-                                <span class="rounded-full border border-white/10 px-4 py-2">Figma</span>
-                                <span class="rounded-full border border-white/10 px-4 py-2">Webflow</span>
-                                <span class="rounded-full border border-white/10 px-4 py-2">Shopify Plus</span>
-                                <span class="rounded-full border border-white/10 px-4 py-2">Klaviyo</span>
-                                <span class="rounded-full border border-white/10 px-4 py-2">Stripe</span>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="product" class="grid gap-12 lg:grid-cols-2 lg:items-center">
+                    <section id="product" class="grid gap-12 rounded-[2.75rem] border border-white/10 bg-white/5 p-10 shadow-[0_22px_70px_rgba(8,9,11,0.55)] lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
                         <div class="space-y-6">
-                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FF6B4A]">Objection handled</p>
-                            <h2 class="text-3xl font-semibold text-white sm:text-4xl">Referral programs shouldn’t feel like a black box.</h2>
-                            <p class="text-base text-white/70 sm:text-lg">Viral Launchpad keeps attribution honest by tying every share to a verified landing page experience. Advocates see live progress, while you decide exactly which conversion unlocks the reward.</p>
+                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">Product walkthrough</p>
+                            <h2 class="text-3xl font-semibold text-white sm:text-4xl">Start from the brand kit, end with a streamlined launch page.</h2>
+                            <p class="text-base text-white/70 sm:text-lg">We reference your identity boards and restructure copy so the layout mirrors the creative direction from your inspo images—without stacking optional modules that slow decisions.</p>
                             <ul class="space-y-4 text-sm text-white/70">
                                 <li class="flex gap-3">
-                                    <span class="mt-1 h-6 w-6 rounded-full bg-white/10 text-center text-xs font-semibold text-white">1</span>
+                                    <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">1</span>
                                     <div>
-                                        <p class="font-semibold text-white">Clean attribution</p>
-                                        <p class="mt-1">Unique URLs only increment after the conversion you define—no double counting, no guesswork.</p>
+                                        <p class="font-semibold text-white">Essential sections only</p>
+                                        <p class="mt-1">Hero, proof, workflow, and CTA blocks land exactly where the infographic recommends—no clutter tiles.</p>
                                     </div>
                                 </li>
                                 <li class="flex gap-3">
-                                    <span class="mt-1 h-6 w-6 rounded-full bg-white/10 text-center text-xs font-semibold text-white">2</span>
+                                    <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">2</span>
                                     <div>
-                                        <p class="font-semibold text-white">On-brand experiences</p>
-                                        <p class="mt-1">Start from your brand kit, then adjust copy, layout, and motion in minutes without engineering.</p>
+                                        <p class="font-semibold text-white">Reference-driven styling</p>
+                                        <p class="mt-1">Gradient lighting, typography, and spacing follow the provided mood board for immediate visual consistency.</p>
                                     </div>
                                 </li>
                                 <li class="flex gap-3">
-                                    <span class="mt-1 h-6 w-6 rounded-full bg-white/10 text-center text-xs font-semibold text-white">3</span>
+                                    <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">3</span>
                                     <div>
-                                        <p class="font-semibold text-white">Automated rewards</p>
-                                        <p class="mt-1">Trigger perks immediately after verified conversions so advocates feel the hype right away.</p>
+                                        <p class="font-semibold text-white">Verified attribution</p>
+                                        <p class="mt-1">Each advocate’s URL ties to a dedicated page, and we only increment once the conversion milestone fires.</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                        <div class="rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-[#10151B] via-[#141D1F] to-[#090B0F] p-8 shadow-[0_25px_70px_rgba(10,11,13,0.55)]">
-                            <div class="grid gap-6 text-sm text-white/70">
-                                <div>
-                                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#FFB973]">Before Viralapp</p>
-                                    <p class="mt-2 rounded-2xl bg-white/5 px-5 py-4 text-white/60">Manual spreadsheets, unclear attribution, delays in rewarding advocates.</p>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#61F4DE]">After Viralapp</p>
-                                    <div class="mt-2 space-y-4">
-                                        <div class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                            <p class="text-sm font-semibold text-white">Guided page builder</p>
-                                            <p class="mt-1 text-xs text-white/60">AI suggests sections, copy, and gradients that mirror your kit.</p>
-                                        </div>
-                                        <div class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                            <p class="text-sm font-semibold text-white">Conversion checkpoints</p>
-                                            <p class="mt-1 text-xs text-white/60">Counts unlock after signup, purchase, or custom milestones you set.</p>
-                                        </div>
-                                        <div class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                            <p class="text-sm font-semibold text-white">Instant fulfillment</p>
-                                            <p class="mt-1 text-xs text-white/60">Automatically deliver rewards or trigger CRM plays the moment a conversion hits.</p>
-                                        </div>
-                                    </div>
+                        <div class="relative">
+                            <div class="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-[#13212F] via-[#152836] to-[#0A1118] opacity-70 blur-2xl"></div>
+                            <div class="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#0D131B]/60 p-8">
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-white/50">Layout preview</p>
+                                <div class="mt-6 space-y-4 text-sm text-white/70">
+                                    <p class="text-white">Hero → Proof strip → How-it-works timeline → Closing CTA</p>
+                                    <p>Automatically adapts to desktop and mobile with your color palette applied.</p>
+                                    <p class="text-white/80">Optional cards stay hidden until you toggle them on, keeping the default experience focused.</p>
                                 </div>
                             </div>
                         </div>
@@ -241,203 +204,166 @@
                     <section id="solution" class="space-y-10">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
                             <div>
-                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">Solution</p>
-                                <h2 class="mt-2 max-w-3xl text-3xl font-semibold text-white sm:text-4xl">Everything you need to spin up a high-performing referral drop in one flow.</h2>
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">Solution</p>
+                                <h2 class="mt-2 max-w-3xl text-3xl font-semibold text-white sm:text-4xl">Give advocates a cinematic experience and give your team clarity.</h2>
                             </div>
                             <a href="#how-it-works" class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition hover:text-white">
-                                Explore the workflow
+                                Explore the steps
                                 <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                                     <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                                 </svg>
                             </a>
                         </div>
-                        <div class="grid gap-6 lg:grid-cols-3">
-                            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.55)]">
-                                <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FF6B4A] text-[#0D0E10] shadow-[0_12px_30px_rgba(255,107,74,0.35)]">
+                        <div class="space-y-8">
+                            <div class="flex flex-col gap-4 rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(9,10,12,0.45)] sm:flex-row sm:items-center sm:gap-8">
+                                <div class="shrink-0 rounded-full bg-[#FF6B4A]/20 p-3 text-[#FFB59B]">
                                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </div>
-                                <h3 class="mt-6 text-xl font-semibold text-white">Guided hero builder</h3>
-                                <p class="mt-3 text-sm text-white/70">Drop in your brand kit and watch layouts, gradients, and typography snap into place instantly.</p>
-                            </article>
-                            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.55)]">
-                                <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#61F4DE] text-[#05212A] shadow-[0_12px_30px_rgba(97,244,222,0.35)]">
+                                <div class="space-y-2 text-sm text-white/70">
+                                    <p class="text-base font-semibold text-white">Hero &amp; story crafted together</p>
+                                    <p>Import the copy from the reference doc and we match it with gradients, layering, and motion cues from your brand kit.</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-4 rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(9,10,12,0.45)] sm:flex-row sm:items-center sm:gap-8">
+                                <div class="shrink-0 rounded-full bg-[#61F4DE]/20 p-3 text-[#8AF7E6]">
                                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 5H19V19H5V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
                                         <path d="M9 9H15V15H9V9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </div>
-                                <h3 class="mt-6 text-xl font-semibold text-white">Conversion checkpoints</h3>
-                                <p class="mt-3 text-sm text-white/70">Select the exact action that counts as success and we’ll only increment when it happens.</p>
-                            </article>
-                            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.55)]">
-                                <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/15 text-white shadow-[0_12px_30px_rgba(255,255,255,0.25)]">
+                                <div class="space-y-2 text-sm text-white/70">
+                                    <p class="text-base font-semibold text-white">Counts tied to conversion moments</p>
+                                    <p>Pick the milestone—signup, purchase, upgrade. We don’t add numbers until that exact action fires on the advocate’s page.</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-4 rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(9,10,12,0.45)] sm:flex-row sm:items-center sm:gap-8">
+                                <div class="shrink-0 rounded-full bg-white/15 p-3 text-white">
                                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12 3V21M21 12H3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
                                     </svg>
                                 </div>
-                                <h3 class="mt-6 text-xl font-semibold text-white">Insights in context</h3>
-                                <p class="mt-3 text-sm text-white/70">Spot top advocates, revenue influenced, and campaign velocity without leaving the builder.</p>
-                            </article>
+                                <div class="space-y-2 text-sm text-white/70">
+                                    <p class="text-base font-semibold text-white">All insight, no spreadsheet</p>
+                                    <p>See trending advocates, pending rewards, and influenced revenue without toggling between optional widgets.</p>
+                                </div>
+                            </div>
                         </div>
-                    </section>
-
-                    <section id="stats" class="grid gap-6 rounded-3xl border border-white/10 bg-white/5 p-8 text-sm text-white/70 shadow-[0_20px_60px_rgba(10,11,13,0.45)] sm:grid-cols-3">
-                        <div>
-                            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Boost</p>
-                            <p class="mt-2 text-3xl font-semibold text-white">179% ↑</p>
-                            <p class="mt-2">Average lift in referred conversions after relaunching the landing page.</p>
-                        </div>
-                        <div>
-                            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Time saved</p>
-                            <p class="mt-2 text-3xl font-semibold text-white">28 hrs</p>
-                            <p class="mt-2">Per campaign reclaimed by automating design, testing, and fulfillment.</p>
-                        </div>
-                        <div>
-                            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Retention</p>
-                            <p class="mt-2 text-3xl font-semibold text-white">92%</p>
-                            <p class="mt-2">Advocates who keep sharing after receiving their first automated reward.</p>
-                        </div>
-                    </section>
-
-                    <section id="benefits" class="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-                        <div class="space-y-6">
-                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">Benefits</p>
-                            <h2 class="text-3xl font-semibold text-white sm:text-4xl">Set up once, then let the referral engine run on autopilot.</h2>
-                            <p class="text-base text-white/70">We trim away optional steps so you can focus on storytelling and reward strategy. Viral Launchpad handles the mechanics.</p>
-                        </div>
-                        <ul class="space-y-5 text-sm text-white/70">
-                            <li class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                <p class="font-semibold text-white">Live status cards</p>
-                                <p class="mt-2">Monitor every advocate’s progress with automated fraud prevention baked in.</p>
-                            </li>
-                            <li class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                <p class="font-semibold text-white">Dynamic copy blocks</p>
-                                <p class="mt-2">Use AI-assisted variants to speak to objectors, buyers, and power users at the same time.</p>
-                            </li>
-                            <li class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
-                                <p class="font-semibold text-white">Analytics without extra tools</p>
-                                <p class="mt-2">Visualize drop-off, revenue influenced, and average reward delivery from one dashboard.</p>
-                            </li>
-                        </ul>
                     </section>
 
                     <section id="how-it-works" class="space-y-10">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
                             <div>
                                 <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">How it works</p>
-                                <h2 class="mt-2 text-3xl font-semibold text-white sm:text-4xl">Launch in three guided sprints.</h2>
+                                <h2 class="mt-2 text-3xl font-semibold text-white sm:text-4xl">Launch in three intentional passes.</h2>
                             </div>
-                            <p class="max-w-md text-sm text-white/70">Every step is documented inside the app with guardrails so your team can iterate without risking the conversion math.</p>
+                            <p class="max-w-md text-sm text-white/70">Documented checkpoints keep everyone aligned. You always know which pieces are mandatory and which are optional before going live.</p>
                         </div>
-                        <ol class="grid gap-6 lg:grid-cols-3">
-                            <li class="rounded-3xl border border-white/10 bg-white/5 p-6">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white">1</span>
-                                <h3 class="mt-4 text-lg font-semibold text-white">Import your kit</h3>
-                                <p class="mt-2 text-sm text-white/70">Connect your brand board or upload inspo shots. We translate colors, gradients, and typography automatically.</p>
+                        <ol class="space-y-6">
+                            <li class="relative rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <span class="absolute -left-5 top-8 hidden h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white sm:flex">1</span>
+                                <div class="space-y-2 text-sm text-white/70 sm:pl-10">
+                                    <p class="text-base font-semibold text-white">Upload the brand references</p>
+                                    <p>Drop in your infographic, brand kit, or past launch visuals. We map gradients, shadows, and typography onto the canvas instantly.</p>
+                                </div>
                             </li>
-                            <li class="rounded-3xl border border-white/10 bg-white/5 p-6">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white">2</span>
-                                <h3 class="mt-4 text-lg font-semibold text-white">Define the conversion</h3>
-                                <p class="mt-2 text-sm text-white/70">Choose signup, purchase, or a custom milestone—counts only tick up once it’s completed on the unique URL.</p>
+                            <li class="relative rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <span class="absolute -left-5 top-8 hidden h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white sm:flex">2</span>
+                                <div class="space-y-2 text-sm text-white/70 sm:pl-10">
+                                    <p class="text-base font-semibold text-white">Define the conversion moment</p>
+                                    <p>Select the action that proves success. The referral counter updates only when that milestone fires on the advocate’s unique URL.</p>
+                                </div>
                             </li>
-                            <li class="rounded-3xl border border-white/10 bg-white/5 p-6">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white">3</span>
-                                <h3 class="mt-4 text-lg font-semibold text-white">Automate fulfillment</h3>
-                                <p class="mt-2 text-sm text-white/70">Link Stripe, gift cards, or CRM flows so rewards send instantly and your advocates keep sharing.</p>
+                            <li class="relative rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <span class="absolute -left-5 top-8 hidden h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white sm:flex">3</span>
+                                <div class="space-y-2 text-sm text-white/70 sm:pl-10">
+                                    <p class="text-base font-semibold text-white">Automate rewards and follow-up</p>
+                                    <p>Connect payouts or lifecycle flows so rewards fire instantly and your team receives a digest with verified conversions.</p>
+                                </div>
                             </li>
                         </ol>
                     </section>
 
-                    <section id="integrations" class="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(10,11,13,0.45)]">
-                        <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+                    <section id="proof" class="grid gap-12 rounded-[2.75rem] border border-white/10 bg-white/5 p-10 shadow-[0_20px_60px_rgba(9,10,12,0.45)] lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+                        <div class="space-y-6">
+                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">Social proof</p>
+                            <h2 class="text-3xl font-semibold text-white sm:text-4xl">Trusted by growth, lifecycle, and product marketing teams.</h2>
+                            <div class="flex flex-wrap items-center gap-4 text-sm font-semibold text-white/60">
+                                <span class="rounded-full border border-white/10 px-4 py-2">Notion</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Figma</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Webflow</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Shopify</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Klaviyo</span>
+                            </div>
+                        </div>
+                        <div class="space-y-6 text-sm text-white/80">
+                            <figure class="rounded-3xl border border-white/10 bg-[#0F151C]/60 p-6">
+                                <blockquote>“The new layout looks exactly like the identity board we uploaded. Referral counts only move when the onboarding flow finishes, so our leaderboard finally reflects reality.”</blockquote>
+                                <figcaption class="mt-3 text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Priya Desai · Director of Growth</figcaption>
+                            </figure>
+                            <figure class="rounded-3xl border border-white/10 bg-[#0F151C]/60 p-6">
+                                <blockquote>“We stopped over-designing optional blocks. Launchpad keeps the essentials, and rewards send within minutes of a verified conversion.”</blockquote>
+                                <figcaption class="mt-3 text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Marcus Hill · Lifecycle Lead</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section id="faq" class="space-y-12">
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
                             <div>
-                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">Integrations</p>
-                                <h2 class="mt-2 text-2xl font-semibold text-white">Plug Viral Launchpad into the stack you already use.</h2>
-                                <p class="mt-3 text-sm text-white/70">Sync data with your CRM, payments, and lifecycle marketing tools without custom builds.</p>
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">FAQ</p>
+                                <h2 class="mt-2 text-3xl font-semibold text-white sm:text-4xl">Still have questions?</h2>
                             </div>
-                            <div class="grid grid-cols-3 gap-4 text-sm font-semibold text-white/70 sm:grid-cols-4">
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">HubSpot</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Salesforce</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Segment</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Amplitude</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Zapier</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Shopify</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Notion</span>
-                                <span class="rounded-xl bg-[#0E131A] px-4 py-3 text-center">Webflow</span>
-                            </div>
+                            <a href="mailto:hello@viral.app" class="inline-flex items-center gap-2 rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white/80 transition hover:bg-white/20">
+                                Talk to a strategist
+                                <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                </svg>
+                            </a>
                         </div>
-                    </section>
-
-                    <section id="testimonials" class="space-y-8">
-                        <div>
-                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">Testimonials</p>
-                            <h2 class="mt-2 text-3xl font-semibold text-white sm:text-4xl">What launch leaders say</h2>
-                        </div>
-                        <div class="grid gap-6 lg:grid-cols-2">
-                            <figure class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.45)]">
-                                <blockquote class="text-base text-white/80">“We rebuilt our referral landing experience in a weekend. Every advocate now has a destination that looks like our product marketing site—and only verified conversions hit the leaderboard.”</blockquote>
-                                <figcaption class="mt-4 text-sm font-semibold text-white">
-                                    Priya Desai, Director of Growth @ Loomly
-                                </figcaption>
-                            </figure>
-                            <figure class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.45)]">
-                                <blockquote class="text-base text-white/80">“The automation around rewards removed so much manual work. We see exactly which advocates drive revenue, and they get perks minutes after a conversion hits.”</blockquote>
-                                <figcaption class="mt-4 text-sm font-semibold text-white">
-                                    Marcus Hill, Lifecycle Lead @ Beacon
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </section>
-
-                    <section id="faq" class="space-y-10">
                         <div class="grid gap-8 lg:grid-cols-[1fr_1fr]">
-                            <div class="space-y-6">
-                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">FAQ</p>
-                                <h2 class="text-3xl font-semibold text-white sm:text-4xl">Answers for fast-moving teams</h2>
-                                <p class="max-w-xl text-base text-white/70">Still curious? Here’s how Viral Launchpad keeps your referral engine precise, protected, and on-brand.</p>
-                                <div class="rounded-3xl border border-white/10 bg-white/5 p-7 shadow-[0_18px_60px_rgba(10,11,13,0.45)]">
-                                    <h3 class="text-lg font-semibold text-white">Need a live walkthrough?</h3>
-                                    <p class="mt-3 text-sm text-white/70">Book a 20-minute session with our strategists to tailor the landing structure to your campaign.</p>
-                                    <a href="mailto:hello@viral.app" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#FFB973] transition hover:text-[#FFD56B]">
-                                        hello@viral.app
-                                        <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                                            <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <h3 class="text-lg font-semibold text-white">Need a live walkthrough?</h3>
+                                <p class="mt-3 text-sm text-white/70">Book a 20-minute session and we’ll tailor the structure to your campaign assets.</p>
+                                <a href="mailto:hello@viral.app" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#FFB973] transition hover:text-[#FFD56B]">
+                                    hello@viral.app
+                                    <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                        <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a>
                             </div>
-                            <div class="space-y-5">
-                                <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_12px_40px_rgba(10,11,13,0.45)]">
-                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left">
-                                        <span class="text-base font-semibold text-white">How do unique referral URLs update counts?</span>
+                            <div class="space-y-4 text-sm text-white/70">
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        How do unique referral URLs update counts?
                                         <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
                                     </summary>
-                                    <p class="mt-4 text-sm text-white/70">Every advocate has a dedicated landing experience. We only increment their total after your conversion event fires on that page, preventing accidental or duplicate credit.</p>
+                                    <p class="mt-3">Each advocate has a dedicated page. We wait for your defined conversion event to fire on that URL before crediting the share.</p>
                                 </details>
-                                <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_12px_40px_rgba(10,11,13,0.45)]">
-                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left">
-                                        <span class="text-base font-semibold text-white">Can I customize the layout beyond the defaults?</span>
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        Can we adjust layouts without code?
                                         <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
                                     </summary>
-                                    <p class="mt-4 text-sm text-white/70">Yes—swap sections, update copy, and layer motion assets while keeping accessibility and conversion best practices intact.</p>
+                                    <p class="mt-3">Swap sections, edit copy, and update gradients directly inside the builder. Optional blocks stay tucked away until you enable them.</p>
                                 </details>
-                                <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_12px_40px_rgba(10,11,13,0.45)]">
-                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left">
-                                        <span class="text-base font-semibold text-white">What about fraud or self-referrals?</span>
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        What prevents fraud or self-referrals?
                                         <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
                                     </summary>
-                                    <p class="mt-4 text-sm text-white/70">We fingerprint referral traffic, block risky submissions, and require conversions to be completed on the advocate’s URL before approving rewards.</p>
+                                    <p class="mt-3">We fingerprint traffic, monitor velocity, and require verified conversions on the advocate’s URL before releasing rewards.</p>
                                 </details>
-                                <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_12px_40px_rgba(10,11,13,0.45)]">
-                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left">
-                                        <span class="text-base font-semibold text-white">Do we need engineering resources?</span>
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        Does it plug into our stack?
                                         <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
                                     </summary>
-                                    <p class="mt-4 text-sm text-white/70">Launch without code. When you’re ready for deeper integrations, developers can extend the experience through our API.</p>
+                                    <p class="mt-3">Connect Stripe, HubSpot, Salesforce, Klaviyo, and more via native integrations or webhooks.</p>
                                 </details>
                             </div>
                         </div>
@@ -448,8 +374,8 @@
                     <div class="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
                         <div>
                             <p class="text-xs font-semibold uppercase tracking-[0.45em] text-white/40">Call to value</p>
-                            <h2 class="mt-3 text-2xl font-semibold text-white sm:text-3xl">Spin up your next viral launch in days, not months.</h2>
-                            <p class="mt-3 max-w-xl text-sm text-white/70">Give every advocate a landing page worth sharing and reward them the moment conversions hit.</p>
+                            <h2 class="mt-3 text-2xl font-semibold text-white sm:text-3xl">Launch a referral experience your advocates are proud to share.</h2>
+                            <p class="mt-3 max-w-xl text-sm text-white/70">Stay true to the brand kit, streamline the flow, and reward only verified conversions.</p>
                         </div>
                         <a href="mailto:hello@viral.app" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#0D0E10] shadow-[0_15px_45px_rgba(255,255,255,0.25)] transition hover:-translate-y-0.5">
                             Talk to a strategist
