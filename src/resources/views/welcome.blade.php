@@ -26,6 +26,99 @@
             </div>
             <div class="pointer-events-none absolute bottom-[-14rem] right-[-6rem] h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-[#124E66] via-[#1B6A7A] to-[#2AA198] opacity-50 blur-3xl"></div>
 
+
+            <div class="relative mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 pb-20 pt-10 sm:px-8 lg:px-10">
+                <header>
+                    <nav class="flex flex-wrap items-center justify-between gap-6 text-sm font-medium text-white/70">
+                        <a href="/" class="flex items-center gap-3 text-white">
+                            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#161B22] text-lg font-semibold text-white shadow-[0_10px_30px_rgba(16,17,20,0.45)] ring-1 ring-white/10">VA</span>
+                            <div class="flex flex-col">
+                                <span class="text-xs font-medium uppercase tracking-[0.6em] text-white/60">Viralapp</span>
+                                <span class="text-base font-semibold">Referral Studio</span>
+                            </div>
+                        </a>
+
+                        @if (Route::has('login'))
+                            <div class="flex flex-wrap items-center gap-3">
+                                <a href="#product" class="rounded-full px-4 py-2 transition hover:text-white">Product</a>
+                                <a href="#solution" class="rounded-full px-4 py-2 transition hover:text-white">Solution</a>
+                                <a href="#how-it-works" class="rounded-full px-4 py-2 transition hover:text-white">How it works</a>
+                                <a href="#faq" class="rounded-full px-4 py-2 transition hover:text-white">FAQs</a>
+
+                                @auth
+                                    <a
+                                        href="{{ url('/dashboard') }}"
+                                        class="inline-flex items-center rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#0D0E10] shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition hover:-translate-y-0.5"
+                                    >
+                                        Open dashboard
+                                    </a>
+                                @else
+                                    <a
+                                        href="{{ route('login') }}"
+                                        class="inline-flex items-center rounded-full bg-white/10 px-5 py-2 text-sm font-semibold text-white transition hover:bg-white/20"
+                                    >
+                                        Log in
+                                    </a>
+
+                                    @if (Route::has('register'))
+                                        <a
+                                            href="{{ route('register') }}"
+                                            class="inline-flex items-center rounded-full bg-[#FF6B4A] px-5 py-2 text-sm font-semibold text-[#0D0E10] shadow-[0_10px_35px_rgba(255,107,74,0.35)] transition hover:-translate-y-0.5 hover:bg-[#FF835C]"
+                                        >
+                                            Create account
+                                        </a>
+                                    @endif
+                                @endauth
+                            </div>
+                        @endif
+                    </nav>
+                </header>
+
+
+                <main class="flex-1 space-y-24 pt-12">
+                    <section id="hero" class="grid gap-12 lg:grid-cols-[1.05fr_1fr] lg:items-center">
+                        <div class="space-y-7">
+                            <span class="inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">
+                                Launch-ready referral hub
+                            </span>
+                            <h1 class="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+                                Ship a single referral page that feels handcrafted and tracks every win.
+                            </h1>
+                            <p class="max-w-xl text-base text-white/70 sm:text-lg">
+                                Viral Launchpad turns your brand kit and campaign copy into a polished landing experience. Advocates share a unique URL, and their count only increases once someone converts on that page—zero fluff, no accidental credit.
+                            </p>
+                            <div class="flex flex-wrap gap-4">
+                                <a
+                                    href="#product"
+                                    class="inline-flex items-center gap-2 rounded-full bg-[#FF6B4A] px-6 py-3 text-sm font-semibold text-[#0D0E10] shadow-[0_15px_40px_rgba(255,107,74,0.35)] transition hover:-translate-y-0.5 hover:bg-[#FF835C]"
+                                >
+                                    Build my page
+                                    <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                        <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <a
+                                    href="#how-it-works"
+                                    class="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white/80 transition hover:border-white/40 hover:text-white"
+                                >
+                                    See the workflow
+                                </a>
+                            </div>
+                            <dl class="grid gap-6 text-sm text-white/60 sm:grid-cols-3">
+                                <div>
+                                    <dt class="font-medium text-white/60">Campaigns launched</dt>
+                                    <dd class="mt-1 text-2xl font-semibold text-white">1.2K+</dd>
+                                </div>
+                                <div>
+                                    <dt class="font-medium text-white/60">Average lift</dt>
+                                    <dd class="mt-1 text-2xl font-semibold text-white">+38%</dd>
+                                </div>
+                                <div>
+                                    <dt class="font-medium text-white/60">Time to ship</dt>
+                                    <dd class="mt-1 text-2xl font-semibold text-white">72 hrs</dd>
+
+
             <div class="relative mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 pb-16 pt-10 sm:px-8 lg:px-10">
                 <header class="flex items-center justify-between gap-6 pb-12">
                     <a href="/" class="flex items-center gap-3">
@@ -112,10 +205,89 @@
                                 <div>
                                     <dt class="font-medium text-white/60">Integrations</dt>
                                     <dd class="mt-1 text-2xl font-semibold text-white">20+ stacks</dd>
+
                                 </div>
                             </dl>
                         </div>
                         <div class="relative">
+
+                            <div class="absolute -inset-x-10 top-10 h-96 rounded-[2.75rem] bg-gradient-to-br from-[#1F2F3F] via-[#13202D] to-[#0A1017] opacity-80 blur-3xl"></div>
+                            <div class="relative overflow-hidden rounded-[2.75rem] border border-white/10 bg-white/5 p-8 shadow-[0_30px_80px_rgba(6,7,9,0.65)]">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Live referral snapshot</p>
+                                        <h3 class="mt-1 text-lg font-semibold text-white">Jordan M. • 3 verified conversions</h3>
+                                    </div>
+                                    <span class="rounded-full bg-[#0F141B] px-3 py-1 text-xs font-semibold text-[#61F4DE]">Synced</span>
+                                </div>
+                                <div class="mt-7 space-y-6 text-sm text-white/70">
+                                    <div>
+                                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/50">Referral link</p>
+                                        <div class="mt-2 flex items-center justify-between rounded-2xl border border-white/10 bg-[#0E131A] px-5 py-4 text-white">
+                                            <span class="font-mono text-xs text-[#61F4DE]">viral.app/ref/jordan</span>
+                                            <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70">Copy</span>
+                                        </div>
+                                        <p class="mt-3 text-xs text-white/60">Count jumps only when this page records your chosen conversion event.</p>
+                                    </div>
+                                    <div class="space-y-5">
+                                        <div class="relative pl-8">
+                                            <span class="absolute left-0 top-2 flex h-3 w-3 items-center justify-center rounded-full bg-[#61F4DE]"></span>
+                                            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/60">Latest conversion</p>
+                                            <p class="mt-1 text-sm text-white/90">Lydia completed onboarding • +1 reward</p>
+                                            <p class="mt-1 text-xs text-white/60">Auto-triggered $20 eGift 04:12 post-confirmation.</p>
+                                        </div>
+                                        <div class="relative pl-8">
+                                            <span class="absolute left-[0.35rem] top-0 h-full w-px bg-white/10"></span>
+                                            <div class="relative">
+                                                <span class="absolute -left-2 top-2 flex h-2 w-2 items-center justify-center rounded-full bg-white/30"></span>
+                                                <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/60">Pipeline</p>
+                                                <p class="mt-1 text-sm text-white/80">2 prospects viewing the referral page now</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="product" class="grid gap-12 rounded-[2.75rem] border border-white/10 bg-white/5 p-10 shadow-[0_22px_70px_rgba(8,9,11,0.55)] lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+                        <div class="space-y-6">
+                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">Product walkthrough</p>
+                            <h2 class="text-3xl font-semibold text-white sm:text-4xl">Start from the brand kit, end with a streamlined launch page.</h2>
+                            <p class="text-base text-white/70 sm:text-lg">We reference your identity boards and restructure copy so the layout mirrors the creative direction from your inspo images—without stacking optional modules that slow decisions.</p>
+                            <ul class="space-y-4 text-sm text-white/70">
+                                <li class="flex gap-3">
+                                    <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">1</span>
+                                    <div>
+                                        <p class="font-semibold text-white">Essential sections only</p>
+                                        <p class="mt-1">Hero, proof, workflow, and CTA blocks land exactly where the infographic recommends—no clutter tiles.</p>
+                                    </div>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">2</span>
+                                    <div>
+                                        <p class="font-semibold text-white">Reference-driven styling</p>
+                                        <p class="mt-1">Gradient lighting, typography, and spacing follow the provided mood board for immediate visual consistency.</p>
+                                    </div>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">3</span>
+                                    <div>
+                                        <p class="font-semibold text-white">Verified attribution</p>
+                                        <p class="mt-1">Each advocate’s URL ties to a dedicated page, and we only increment once the conversion milestone fires.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-[#13212F] via-[#152836] to-[#0A1118] opacity-70 blur-2xl"></div>
+                            <div class="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#0D131B]/60 p-8">
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-white/50">Layout preview</p>
+                                <div class="mt-6 space-y-4 text-sm text-white/70">
+                                    <p class="text-white">Hero → Proof strip → How-it-works timeline → Closing CTA</p>
+                                    <p>Automatically adapts to desktop and mobile with your color palette applied.</p>
+                                    <p class="text-white/80">Optional cards stay hidden until you toggle them on, keeping the default experience focused.</p>
+
                             <div class="absolute inset-x-6 top-6 h-[420px] rounded-3xl bg-gradient-to-br from-[#1B2A3A] via-[#111923] to-[#0B0F14] opacity-90 blur-2xl"></div>
                             <div class="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_25px_80px_rgba(9,10,12,0.65)]">
                                 <div class="flex items-center justify-between border-b border-white/10 px-6 py-5">
@@ -163,10 +335,21 @@
                                             </p>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </section>
+
+
+                    <section id="solution" class="space-y-10">
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                            <div>
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">Solution</p>
+                                <h2 class="mt-2 max-w-3xl text-3xl font-semibold text-white sm:text-4xl">Give advocates a cinematic experience and give your team clarity.</h2>
+                            </div>
+                            <a href="#how-it-works" class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition hover:text-white">
+                                Explore the steps
 
                     <section id="features" class="space-y-12">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -178,19 +361,35 @@
                             </div>
                             <a href="#playbook" class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition hover:text-white">
                                 View the growth playbook
+
                                 <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                                     <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                                 </svg>
                             </a>
                         </div>
+
+                        <div class="space-y-8">
+                            <div class="flex flex-col gap-4 rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(9,10,12,0.45)] sm:flex-row sm:items-center sm:gap-8">
+                                <div class="shrink-0 rounded-full bg-[#FF6B4A]/20 p-3 text-[#FFB59B]">
+
                         <div class="grid gap-6 lg:grid-cols-3">
                             <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.55)] transition hover:-translate-y-1 hover:border-white/20">
                                 <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FF6B4A] text-[#0D0E10] shadow-[0_12px_30px_rgba(255,107,74,0.35)]">
+
                                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </div>
+
+                                <div class="space-y-2 text-sm text-white/70">
+                                    <p class="text-base font-semibold text-white">Hero &amp; story crafted together</p>
+                                    <p>Import the copy from the reference doc and we match it with gradients, layering, and motion cues from your brand kit.</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-4 rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(9,10,12,0.45)] sm:flex-row sm:items-center sm:gap-8">
+                                <div class="shrink-0 rounded-full bg-[#61F4DE]/20 p-3 text-[#8AF7E6]">
+
                                 <h3 class="mt-6 text-xl font-semibold text-white">Design-forward starter kits</h3>
                                 <p class="mt-3 text-sm text-white/70">
                                     Apply curated hero layouts, typographic scales, and color palettes inspired by your brand references in a single click.
@@ -198,11 +397,21 @@
                             </article>
                             <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.55)] transition hover:-translate-y-1 hover:border-white/20">
                                 <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#61F4DE] text-[#05212A] shadow-[0_12px_30px_rgba(97,244,222,0.35)]">
+
                                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 5H19V19H5V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
                                         <path d="M9 9H15V15H9V9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </div>
+
+                                <div class="space-y-2 text-sm text-white/70">
+                                    <p class="text-base font-semibold text-white">Counts tied to conversion moments</p>
+                                    <p>Pick the milestone—signup, purchase, upgrade. We don’t add numbers until that exact action fires on the advocate’s page.</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-4 rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(9,10,12,0.45)] sm:flex-row sm:items-center sm:gap-8">
+                                <div class="shrink-0 rounded-full bg-white/15 p-3 text-white">
+
                                 <h3 class="mt-6 text-xl font-semibold text-white">Automations without clutter</h3>
                                 <p class="mt-3 text-sm text-white/70">
                                     Smart defaults minimize optional fields—only add what amplifies delight. Everything else runs in the background.
@@ -210,10 +419,144 @@
                             </article>
                             <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_18px_60px_rgba(10,11,13,0.55)] transition hover:-translate-y-1 hover:border-white/20">
                                 <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/15 text-white shadow-[0_12px_30px_rgba(255,255,255,0.25)]">
+
                                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12 3V21M21 12H3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
                                     </svg>
                                 </div>
+
+                                <div class="space-y-2 text-sm text-white/70">
+                                    <p class="text-base font-semibold text-white">All insight, no spreadsheet</p>
+                                    <p>See trending advocates, pending rewards, and influenced revenue without toggling between optional widgets.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="how-it-works" class="space-y-10">
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                            <div>
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">How it works</p>
+                                <h2 class="mt-2 text-3xl font-semibold text-white sm:text-4xl">Launch in three intentional passes.</h2>
+                            </div>
+                            <p class="max-w-md text-sm text-white/70">Documented checkpoints keep everyone aligned. You always know which pieces are mandatory and which are optional before going live.</p>
+                        </div>
+                        <ol class="space-y-6">
+                            <li class="relative rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <span class="absolute -left-5 top-8 hidden h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white sm:flex">1</span>
+                                <div class="space-y-2 text-sm text-white/70 sm:pl-10">
+                                    <p class="text-base font-semibold text-white">Upload the brand references</p>
+                                    <p>Drop in your infographic, brand kit, or past launch visuals. We map gradients, shadows, and typography onto the canvas instantly.</p>
+                                </div>
+                            </li>
+                            <li class="relative rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <span class="absolute -left-5 top-8 hidden h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white sm:flex">2</span>
+                                <div class="space-y-2 text-sm text-white/70 sm:pl-10">
+                                    <p class="text-base font-semibold text-white">Define the conversion moment</p>
+                                    <p>Select the action that proves success. The referral counter updates only when that milestone fires on the advocate’s unique URL.</p>
+                                </div>
+                            </li>
+                            <li class="relative rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <span class="absolute -left-5 top-8 hidden h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white sm:flex">3</span>
+                                <div class="space-y-2 text-sm text-white/70 sm:pl-10">
+                                    <p class="text-base font-semibold text-white">Automate rewards and follow-up</p>
+                                    <p>Connect payouts or lifecycle flows so rewards fire instantly and your team receives a digest with verified conversions.</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section id="proof" class="grid gap-12 rounded-[2.75rem] border border-white/10 bg-white/5 p-10 shadow-[0_20px_60px_rgba(9,10,12,0.45)] lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+                        <div class="space-y-6">
+                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#FFB973]">Social proof</p>
+                            <h2 class="text-3xl font-semibold text-white sm:text-4xl">Trusted by growth, lifecycle, and product marketing teams.</h2>
+                            <div class="flex flex-wrap items-center gap-4 text-sm font-semibold text-white/60">
+                                <span class="rounded-full border border-white/10 px-4 py-2">Notion</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Figma</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Webflow</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Shopify</span>
+                                <span class="rounded-full border border-white/10 px-4 py-2">Klaviyo</span>
+                            </div>
+                        </div>
+                        <div class="space-y-6 text-sm text-white/80">
+                            <figure class="rounded-3xl border border-white/10 bg-[#0F151C]/60 p-6">
+                                <blockquote>“The new layout looks exactly like the identity board we uploaded. Referral counts only move when the onboarding flow finishes, so our leaderboard finally reflects reality.”</blockquote>
+                                <figcaption class="mt-3 text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Priya Desai · Director of Growth</figcaption>
+                            </figure>
+                            <figure class="rounded-3xl border border-white/10 bg-[#0F151C]/60 p-6">
+                                <blockquote>“We stopped over-designing optional blocks. Launchpad keeps the essentials, and rewards send within minutes of a verified conversion.”</blockquote>
+                                <figcaption class="mt-3 text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Marcus Hill · Lifecycle Lead</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section id="faq" class="space-y-12">
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                            <div>
+                                <p class="text-xs font-semibold uppercase tracking-[0.45em] text-[#61F4DE]">FAQ</p>
+                                <h2 class="mt-2 text-3xl font-semibold text-white sm:text-4xl">Still have questions?</h2>
+                            </div>
+                            <a href="mailto:hello@viral.app" class="inline-flex items-center gap-2 rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white/80 transition hover:bg-white/20">
+                                Talk to a strategist
+                                <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="grid gap-8 lg:grid-cols-[1fr_1fr]">
+                            <div class="rounded-[2.5rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(9,10,12,0.45)]">
+                                <h3 class="text-lg font-semibold text-white">Need a live walkthrough?</h3>
+                                <p class="mt-3 text-sm text-white/70">Book a 20-minute session and we’ll tailor the structure to your campaign assets.</p>
+                                <a href="mailto:hello@viral.app" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#FFB973] transition hover:text-[#FFD56B]">
+                                    hello@viral.app
+                                    <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 12.5L12.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                        <path d="M5 3.5H12.5V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="space-y-4 text-sm text-white/70">
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        How do unique referral URLs update counts?
+                                        <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
+                                    </summary>
+                                    <p class="mt-3">Each advocate has a dedicated page. We wait for your defined conversion event to fire on that URL before crediting the share.</p>
+                                </details>
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        Can we adjust layouts without code?
+                                        <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
+                                    </summary>
+                                    <p class="mt-3">Swap sections, edit copy, and update gradients directly inside the builder. Optional blocks stay tucked away until you enable them.</p>
+                                </details>
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        What prevents fraud or self-referrals?
+                                        <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
+                                    </summary>
+                                    <p class="mt-3">We fingerprint traffic, monitor velocity, and require verified conversions on the advocate’s URL before releasing rewards.</p>
+                                </details>
+                                <details class="group border-b border-white/10 pb-4">
+                                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white">
+                                        Does it plug into our stack?
+                                        <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70 transition group-open:bg-[#FF6B4A] group-open:text-[#0D0E10]">Open</span>
+                                    </summary>
+                                    <p class="mt-3">Connect Stripe, HubSpot, Salesforce, Klaviyo, and more via native integrations or webhooks.</p>
+                                </details>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+                <footer class="mt-24 rounded-3xl border border-white/10 bg-gradient-to-br from-[#10151B] via-[#111922] to-[#090B0F] p-10 text-sm text-white/60">
+                    <div class="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
+                        <div>
+                            <p class="text-xs font-semibold uppercase tracking-[0.45em] text-white/40">Call to value</p>
+                            <h2 class="mt-3 text-2xl font-semibold text-white sm:text-3xl">Launch a referral experience your advocates are proud to share.</h2>
+                            <p class="mt-3 max-w-xl text-sm text-white/70">Stay true to the brand kit, streamline the flow, and reward only verified conversions.</p>
+
                                 <h3 class="mt-6 text-xl font-semibold text-white">Insights you can pitch with</h3>
                                 <p class="mt-3 text-sm text-white/70">
                                     Visualize trending advocates, campaign velocity, and incremental revenue in a single source of truth.
@@ -351,6 +694,7 @@
                         <div>
                             <p class="text-xs font-semibold uppercase tracking-[0.45em] text-white/40">Ready to go viral?</p>
                             <h2 class="mt-3 text-2xl font-semibold text-white">Let's build your next cult-favorite launch.</h2>
+
                         </div>
                         <a href="mailto:hello@viral.app" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#0D0E10] shadow-[0_15px_45px_rgba(255,255,255,0.25)] transition hover:-translate-y-0.5">
                             Talk to a strategist
@@ -360,7 +704,14 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="mt-10 grid gap-6 sm:grid-cols-2">
+
+                    <div class="mt-10 grid gap-6 text-xs text-white/50 sm:grid-cols-2">
+                        <p>© {{ date('Y') }} Viralapp. Crafted for teams ready to ship legendary referral drops.</p>
+                        <div class="flex flex-wrap items-center gap-4">
+                            <a href="#product" class="hover:text-white">Product</a>
+                            <a href="#solution" class="hover:text-white">Solution</a>
+                            <a href="#how-it-works" class="hover:text-white">How it works</a>
+            <div class="mt-10 grid gap-6 sm:grid-cols-2">
                         <p class="text-xs text-white/40">© {{ date('Y') }} Viralapp. Crafted for teams ready to ship legendary referral drops.</p>
                         <div class="flex items-center gap-4 text-xs">
                             <a href="#features" class="hover:text-white">Platform</a>
